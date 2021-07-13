@@ -1,0 +1,11 @@
+server:
+  port: 8082
+  servlet:    context-path: /api/v1
+
+## Spring DATASOURCE (DataSourceAutoConfiguration & DataSourceProperties)
+spring:  datasource:    url: jdbc:h2:mem:db;DB_CLOSE_DELAY=-1
+    username: sa
+    password: 
+    
+# Hibernate ddl auto (create, create-drop, validate, update)  jpa:    hibernate:      ddl-auto: update
+        h2:    console:      enabled: true

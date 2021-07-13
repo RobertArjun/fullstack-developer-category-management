@@ -1,0 +1,10 @@
+server:
+  port: 8081
+  servlet:    context-path: /api/v1
+
+## Spring DATASOURCE (DataSourceAutoConfiguration & DataSourceProperties)
+spring:  datasource:    url: jdbc:mysql://localhost:3306/ecomm1?allowPublicKeyRetrieval=true&useSSL=false
+    username: root
+    password: root
+    
+# Hibernate ddl auto (create, create-drop, validate, update)  jpa:    hibernate:      ddl-auto: update
